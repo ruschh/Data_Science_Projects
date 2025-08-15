@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+.ipynb_checkpoints/
+.jupyter/lab/workspaces/
+.DS_Store
+Thumbs.db
+
+# Dados grandes (não versionar por padrão)
+data/raw/*
+data/external/*
+!data/raw/.gitkeep
+!data/external/.gitkeep
+
+# Saídas volumosas
+reports/figures/*
+!reports/figures/.gitkeep
+
+*.log
+.vscode/
